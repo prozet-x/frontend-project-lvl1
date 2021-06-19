@@ -6,4 +6,3 @@ const askNameAndHello = () => {
 };
 
 export default askNameAndHello;
-
