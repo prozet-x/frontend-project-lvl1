@@ -25,7 +25,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      #It is my testing step
+      #We need airbnb-base to start lint on next step. Here we are installing it
+      - name: install all for next step
+        run: make install
+
+      #Starting linting
       - name: start lint via make
         run: make lint
 
