@@ -18,7 +18,8 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "games/brain-even.js",
+    "brain-calc": "games/brain-calc.js"
   },
   "homepage": "https://github.com/prozet-x/frontend-project-lvl1#readme",
   "dependencies": {
