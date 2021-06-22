@@ -3,3 +3,4 @@
 ![CI](https://github.com/prozet-x/frontend-project-lvl1/actions/workflows/main.yml/badge.svg)
 https://asciinema.org/a/6OFxbl4ujPB4jxrjIuINg66od
 https://asciinema.org/a/pPQudSTSZH3Sxvemrdgih8vsx
+https://asciinema.org/a/XxbSpUupfOnntxX7iK6wrbN5Q
