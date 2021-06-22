@@ -9,8 +9,8 @@ const brainCalc = () => {
   let i = 1;
   const questionsAndAnswers = [];
   while (i <= countOfQuestions) {
-    const num1 = index.getNumber();
-    const num2 = index.getNumber();
+    const num1 = index.getNumber(2);
+    const num2 = index.getNumber(2);
     const operator = index.getOperator();
     const question = `Question: ${num1} ${operator} ${num2}`;
     let answer = 0;

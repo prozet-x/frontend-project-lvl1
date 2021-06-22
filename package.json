@@ -20,6 +20,7 @@
     "brain-games": "bin/brain-games.js",
     "brain-even": "games/brain-even.js",
     "brain-gcd": "games/brain-gcd.js",
+    "brain-progression": "games/brain-progression.js",
     "brain-calc": "games/brain-calc.js"
   },
   "homepage": "https://github.com/prozet-x/frontend-project-lvl1#readme",

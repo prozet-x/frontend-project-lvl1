@@ -9,7 +9,7 @@ const brainEven = () => {
   let i = 1;
   const questionsAndAnswers = [];
   while (i <= countOfQuestions) {
-    const num = index.getNumber();
+    const num = index.getNumber(2);
     const question = `Question: ${num} `;
     let answer = '';
     if (num % 2 === 0) {

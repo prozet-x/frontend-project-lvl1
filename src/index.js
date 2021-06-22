@@ -1,8 +1,8 @@
 import readlineSync from 'readline-sync';
 
-export const getNumber = () => {
-  const multiplyCoeff = 100;
-  return Math.floor(Math.random() * multiplyCoeff);
+export const getNumber = (digitsAfterDecPoint) => {
+  const num = Math.random();
+  return Math.floor(num * (10 ** digitsAfterDecPoint));
 };
 
 export const getOperator = () => {
