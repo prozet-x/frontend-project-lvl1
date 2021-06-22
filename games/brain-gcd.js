@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import * as index from '../src/index.js';
 
-export const brainGcd = () => {
+const brainGcd = () => {
   const countOfQuestions = 3;
 
   const name = index.helloAndAskNameAndShowConditions('Wellcome to the Brain Games!', 'Find the greatest common divisor of given numbers.');
@@ -15,7 +15,7 @@ export const brainGcd = () => {
     let answer = '';
     let a = num1;
     let b = num2;
-    while ( a !== b) {
+    while (a !== b) {
       if (a > b) {
         a -= b;
       } else {
