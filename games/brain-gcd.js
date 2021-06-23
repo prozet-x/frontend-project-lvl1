@@ -11,7 +11,7 @@ const brainGcd = () => {
   while (i <= countOfQuestions) {
     const num1 = index.getNumber(2);
     const num2 = index.getNumber(2);
-    const question = `Question: ${num1}  ${num2}`;
+    const question = `Question: ${num1} ${num2}`;
     let answer = '';
     let a = num1;
     let b = num2;
