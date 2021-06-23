@@ -13,6 +13,9 @@ brain-calc:
 brain-gcd:
 	node games/brain-gcd.js
 
+brain-prime:
+	node games/brain-prime.js
+
 brain-progression:
 	node games/brain-progression.js
 
